@@ -1,0 +1,637 @@
+<?xml-stylesheet type="text/xsl" href="calendar.xsl"?>
+<calendar xsi:noNamespaceSchemaLocation="calendar.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <weekday value="1" >MO</weekday>
+    <weekday value="2" >DI</weekday>
+    <weekday value="3" >MI</weekday>
+    <weekday value="4" >DO</weekday>
+    <weekday value="5" >FR</weekday>
+    <weekday value="6" >SA</weekday>
+    <weekday value="7" >SO</weekday>
+
+    <month year="2015" value="2" name="Februar">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+        </week>
+        <week value="2">
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+        </week>
+        <week value="3">
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+        </week>
+        <week value="4">
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+        </week>
+        <week value="5">
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="3" name="März">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+        </week>
+        <week value="2">
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+        </week>
+        <week value="3">
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+        </week>
+        <week value="4">
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+        </week>
+        <week value="5">
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+        </week>
+        <week value="6">
+            <day>30</day>
+            <day>31</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="4" name="April">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+        </week>
+        <week value="2">
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+        </week>
+        <week value="3">
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+        </week>
+        <week value="4">
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+        </week>
+        <week value="5">
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+            <day>30</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="5" name="Mai">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+        </week>
+        <week value="2">
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+        </week>
+        <week value="3">
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+        </week>
+        <week value="4">
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+        </week>
+        <week value="5">
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+            <day>20</day>
+            <day>31</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="6" name="Juni">
+        <week value="1">
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+        </week>
+        <week value="2">
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+        </week>
+        <week value="3">
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+        </week>
+        <week value="4">
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+        </week>
+        <week value="5">
+            <day>29</day>
+            <day>30</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="7" name="Juli">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+        </week>
+        <week value="2">
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+        </week>
+        <week value="3">
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+        </week>
+        <week value="4">
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+        </week>
+        <week value="5">
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+            <day>30</day>
+            <day>31</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="8" name="August">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+        </week>
+        <week value="2">
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+        </week>
+        <week value="3">
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+        </week>
+        <week value="4">
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+        </week>
+        <week value="5">
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+            <day>30</day>
+        </week>
+        <week value="6">
+            <day>31</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="9" name="September">
+        <week value="1">
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+        </week>
+        <week value="2">
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+        </week>
+        <week value="3">
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+        </week>
+        <week value="4">
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+        </week>
+        <week value="5">
+            <day>28</day>
+            <day>29</day>
+            <day>30</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="10" name="Oktober">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+        </week>
+        <week value="2">
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+        </week>
+        <week value="3">
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+        </week>
+        <week value="4">
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+        </week>
+        <week value="5">
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+            <day>30</day>
+            <day>31</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="11" name="November">
+        <week value="1">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>1</day>
+        </week>
+        <week value="2">
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+            <day>7</day>
+            <day>8</day>
+        </week>
+        <week value="3">
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+            <day>14</day>
+            <day>15</day>
+        </week>
+        <week value="4">
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+            <day>21</day>
+            <day>22</day>
+        </week>
+        <week value="5">
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+            <day>28</day>
+            <day>29</day>
+        </week>
+        <week value="6">
+            <day>30</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+
+    <month year="2015" value="12" name="Dezember">
+        <week value="1">
+            <day>0</day>
+            <day>1</day>
+            <day>2</day>
+            <day>3</day>
+            <day>4</day>
+            <day>5</day>
+            <day>6</day>
+        </week>
+        <week value="2">
+            <day>7</day>
+            <day>8</day>
+            <day>9</day>
+            <day>10</day>
+            <day>11</day>
+            <day>12</day>
+            <day>13</day>
+        </week>
+        <week value="3">
+            <day>14</day>
+            <day>15</day>
+            <day>16</day>
+            <day>17</day>
+            <day>18</day>
+            <day>19</day>
+            <day>20</day>
+        </week>
+        <week value="4">
+            <day>21</day>
+            <day>22</day>
+            <day>23</day>
+            <day>24</day>
+            <day>25</day>
+            <day>26</day>
+            <day>27</day>
+        </week>
+        <week value="5">
+            <day>28</day>
+            <day>29</day>
+            <day>30</day>
+            <day>31</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+        <week value="6">
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+            <day>0</day>
+        </week>
+    </month>
+</calendar>

@@ -1,0 +1,224 @@
+/* Main settings */
+
+html {
+    background: url('../images/bg_pat.png') #fff;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: Tahoma, Verdana, Arial;
+    background: url('../images/bg_pat.png') #fff;
+    background-attachment: fixed;
+}
+
+ul li.current a {
+    color: #000;
+}
+
+p {
+    font-size: 13px;
+    color: #7e7d7d;
+    line-height: 19px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal!important;
+    height: 20px;
+}
+
+h1 {
+    font-size: 23px;
+    font-weight: normal!important;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal!important;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: normal!important;
+    color: #565454;
+}
+
+h4 a {
+    font-size: 12px;
+}
+
+a {
+    color: #2B343B;
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #888F94;
+}
+
+div#about_page {
+    padding: 35px 0;
+}
+
+input[type="text"], textarea {
+}
+
+input[type="text"]:hover, textarea:hover {
+    border-color: #59a0ba;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #59a0ba;
+}
+
+#about_page img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/* Container, content */
+
+div#content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+div#container {
+	background-color: #FFFFFF;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+div.stripe {
+    width: 1100px;
+    height: 7px;
+    background: url('../images/stripe.png');
+}
+
+/* Navigation */
+
+div#header {
+    padding: 34px 0;
+    position: relative;
+	border-bottom: 1px solid #ddd;
+}
+
+ul.main_navi {
+    float: right;
+    width: 410px;
+    margin-top: 8px;
+}
+
+.main_navi li {
+    float: right;
+    margin-left: 40px;
+}
+
+.main_navi li a {
+    display: block;
+    font-size: 14px;
+    color: #b4b3b3;
+    text-decoration: none;
+}
+
+.main_navi li a:hover {
+    color: #000;
+}
+
+div#page_content {
+    padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/* Button */
+
+div.button_cont {
+    margin-top: 20px;
+}
+
+a.button {    
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    float: right;
+    padding: 8px 23px;
+    text-decoration: none;
+    background-color: #404852;
+}
+
+a.button:hover {
+    background-color: #5A626B;
+    color: #fff;
+}
+
+a.button:active {
+    background-color: #333940;
+}
+
+div.work_info a.button {
+    float: right;
+}
+
+/* Footer */
+
+div#footer {
+    height: 20px;
+    font-size: 12px;
+    color: #5e5d5d;
+    clear: both;
+	padding-top:20px;
+	border-top: 1px solid #ddd;
+}
+
+ul.footer_navi {
+    float: right;
+}
+
+.footer_navi li {
+    float: left;
+    margin-left: 50px;
+}
+
+.footer_navi li a {
+    color: #5e5d5d;
+    text-decoration: none;
+}
+
+.footer_navi li a:hover {
+    color: #000;
+}
+
+/* About Page */
+
+h1.about {
+    margin-top: 30px;
+}
+
+p.about {
+    margin-top: 40px;
+    width: 600px;
+}
+
+/* Portfolio */
+
+p.portfolio {
+    margin-top: 20px;
+}
+
+#booking_content {
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom:20px;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+}
+
+#booking_response {
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
