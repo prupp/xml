@@ -99,13 +99,14 @@ class XMLHandler {
     }
 
     /**
-     * Gets package price from a given packag
+     * Gets package price from a given package
      * @param $packageName to get price from
      * @return SimpleXMLElement[] package price
      */
     public function getPriceByPackageName($packageName) {
         $packageXml = simplexml_load_file(self::PACKAGES_XML);
-        return $packageXml->xpath("/packages/package[@name = $packageName]/price");
+        $price = $packageXml->xpath("/packages/package[@name='{$packageName}']/price");
+        return $price[0];
     }
 
     /**

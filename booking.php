@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Schlafen im Fass | Buchen</title>
@@ -28,62 +29,65 @@
         </div>
         <div id="page_content">
 
-    <?php
-    $name = $package = $date = "";
-    $error = 0; // 1: no name entered, 2: allready booked for this day, 3: fully booked 4: successfully booked
-    $pricePerNight = 50; // 50.- per night + package price
+            <?php
+            $name = $package = $date = "";
+            $error = 0; // 1: no name entered, 2: allready booked for this day, 3: fully booked 4: successfully booked
 
-    require_once 'xmlhandler.php';
-    $xmlHandler = new XMLHandler();
+            require_once 'xmlhandler.php';
+            $xmlHandler = new XMLHandler();
 
-    // get query from url and parse it
-    $query = $_SERVER['QUERY_STRING'];
-    parse_str($query, $result);
+            // get query from url and parse it
+            $query = $_SERVER['QUERY_STRING'];
+            parse_str($query, $result);
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $name = $_POST["name"];
-        $package = $_POST["package"];
-        $date = $_POST["date"];
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $name = $_POST["name"];
+                $package = $_POST["package"];
+                $date = $_POST["date"];
 
 
-        // persist booking only if name entered
-        if ($name !== '') {
 
-            $dateParts = explode(".", $date);
-            $day = $dateParts[0];
-            $month = $dateParts[1];
-            $year = $dateParts[2];
 
-            // check if not fully booked for given date
-            if ($xmlHandler->getReservationCountByDate($day,$month,$year) < 3) {
-                // check if this person already booked for given date, allow only one booking per date and person
-                if ($xmlHandler->getReservationCountByDateAndName($day,$month,$year,$name) < 1) {
-                    // generate unique booking id
-                    $bookingId = uniqid();
-                    $price = $xmlHandler->getPriceByPackageName($package) + $pricePerNight;
-                    // add booking to xml
-                    $xmlHandler->addBooking($name, $day, $month, $year, $package, $bookingId, $price);
-                    $error = 4; // booking successful
-                } else {
-                    $error = 2; // already booked
-                }
-            } else {
-                $error = 3; // fully booked for this day
+                    // persist booking only if name entered
+                    if ($name !== '') {
+
+                        $dateParts = explode(".", $date);
+                        $day = $dateParts[0];
+                        $month = $dateParts[1];
+                        $year = $dateParts[2];
+
+                        // check if not fully booked for given date
+                        if ($xmlHandler->getReservationCountByDate($day, $month, $year) < 3) {
+                            // check if this person already booked for given date, allow only one booking per date and person
+                            if ($xmlHandler->getReservationCountByDateAndName($day, $month, $year, $name) < 1) {
+                                // generate unique booking id
+                                $bookingId = uniqid();
+                                $price = $xmlHandler->getPriceByPackageName($package);
+                                // add booking to xml
+                                $xmlHandler->addBooking($name, $day, $month, $year, $package, $bookingId, $price);
+                                $error = 4; // booking successful
+                            } else {
+                                $error = 2; // already booked
+                            }
+                        } else {
+                            $error = 3; // fully booked for this day
+                        }
+
+                    } else {
+                        $error = 1; // no name entered
+                    }
+
             }
 
-        } else {
-            $error = 1; // no name entered
-        }
-    }
-
-    // Set date only if present in url, use previously persisted date otherwise
-    if (array_key_exists('m', $result)) {
-        $date = $result['d'] . '.' . $result['m'] . '.' . $result['y'];
-    }
-    ?>
+            // Set date only if present in url, use previously persisted date otherwise
+            if (array_key_exists('m', $result)) {
+                $date = $result['d'] . '.' . $result['m'] . '.' . $result['y'];
+            }
+            ?>
 
             <div id="booking_response">
                 <p>
+
                 <h1>
                     Buchung für den <?php echo $date; ?>
                 </h1>
@@ -145,21 +149,20 @@
                     </p>
 
                     <p>
-                        <br/><br/>Package <br/>
+                        <br/>Package <br/>
                         <select name="package">
                             <?php foreach ($xmlHandler->getPackages() as $item) {
                                 $temp = '<option value="';
                                 $temp .= $item;
                                 $temp .= '">';
                                 $temp .= $item;
+                                $temp .= ' ';
+                                $temp .= $xmlHandler->getPriceByPackageName($item);
+                                $temp .= 'Fr.';
                                 $temp .= '</option>';
                                 echo $temp;
                             } ?>
                         </select>
-                    </p>
-
-                    <p>
-                        <br/><br/>Price: <?php echo $pricePerNight; ?>
                     </p>
 
                     <p>
