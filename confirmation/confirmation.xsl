@@ -56,7 +56,7 @@
                 <fo:table-row>
                     <fo:table-cell>
                         <fo:block>
-                            Price: <xsl:value-of select="day"/>
+                            Price: <xsl:value-of select="price"/> Fr.
                         </fo:block>
                     </fo:table-cell>
                     <fo:table-cell>
@@ -80,7 +80,7 @@
                     </fo:table-cell>
                     <fo:table-cell>
                         <fo:block>
-                            Price: <xsl:value-of select="day"/> Fr.
+                            Price: <xsl:value-of select="price"/> Fr.
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>

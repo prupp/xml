@@ -75,7 +75,7 @@ class XMLHandler {
      * @param $package
      * @param $bookingId
      */
-    public function addBooking($name, $day, $month, $year, $package, $bookingId)
+    public function addBooking($name, $day, $month, $year, $package, $bookingId, $price)
     {
         $xml = simplexml_load_file(self::BOOKINGS_XML);
         $node = $xml->addChild('reservation');
@@ -85,6 +85,7 @@ class XMLHandler {
         $node->addChild('day', $day);
         $node->addChild('month', $month);
         $node->addChild('year', $year);
+        $node->addChild('price', $price);
         file_put_contents(self::BOOKINGS_XML, $xml->asXML());
     }
 
@@ -95,6 +96,16 @@ class XMLHandler {
     public function getPackages() {
         $packageXml = simplexml_load_file(self::PACKAGES_XML);
         return $packageXml->xpath("/packages/package/@name");
+    }
+
+    /**
+     * Gets package price from a given packag
+     * @param $packageName to get price from
+     * @return SimpleXMLElement[] package price
+     */
+    public function getPriceByPackageName($packageName) {
+        $packageXml = simplexml_load_file(self::PACKAGES_XML);
+        return $packageXml->xpath("/packages/package[@name = $packageName]/price");
     }
 
     /**

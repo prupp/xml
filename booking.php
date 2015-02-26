@@ -31,6 +31,7 @@
     <?php
     $name = $package = $date = "";
     $error = 0; // 1: no name entered, 2: allready booked for this day, 3: fully booked 4: successfully booked
+    $pricePerNight = 50; // 50.- per night + package price
 
     require_once 'xmlhandler.php';
     $xmlHandler = new XMLHandler();
@@ -59,8 +60,9 @@
                 if ($xmlHandler->getReservationCountByDateAndName($day,$month,$year,$name) < 1) {
                     // generate unique booking id
                     $bookingId = uniqid();
+                    $price = $xmlHandler->getPriceByPackageName($package) + $pricePerNight;
                     // add booking to xml
-                    $xmlHandler->addBooking($name, $day, $month, $year, $package, $bookingId);
+                    $xmlHandler->addBooking($name, $day, $month, $year, $package, $bookingId, $price);
                     $error = 4; // booking successful
                 } else {
                     $error = 2; // already booked
@@ -154,6 +156,10 @@
                                 echo $temp;
                             } ?>
                         </select>
+                    </p>
+
+                    <p>
+                        <br/><br/>Price: <?php echo $pricePerNight; ?>
                     </p>
 
                     <p>
