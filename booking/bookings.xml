@@ -1,4 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bookings>
-    
-<reservation number="54f0200e35002"><name>test</name><package>Das romantische Fass</package><day>27</day><month>2</month><year>2015</year><price>80</price></reservation><reservation number="54f02e5cc3360"><name>glg</name><package>Das romantische Fass</package><day/><month/><year/><price>80</price></reservation><reservation number="54f2e1907e174"><name>jjj</name><package>Das einfache Fass</package><day>6</day><month>3</month><year>2015</year><price>40</price></reservation><reservation number="54f403d229086"><name>tet</name><package>Das romantische Fass</package><day>2</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f4103aa14a2"><name>test</name><package>Das Familien-Fass</package><day>26</day><month>3</month><year>2015</year><price>60</price></reservation><reservation number="54f414671e4cc"><name>test</name><package>Das romantische Fass</package><day>4</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f415e85aa0b"><name>Cedric</name><package>Das romantische Fass</package><day>4</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f4168cbc672"><name>Hans</name><package>Das Familien-Fass</package><day>17</day><month>3</month><year>2015</year><price>60</price></reservation><reservation number="54f41a0670705"><name>Haudraufhase</name><package>Das Familien-Fass</package><day>17</day><month>3</month><year>2015</year><price>60</price></reservation><reservation number="54f41aaced4fd"><name>Haudraufhase</name><package>Das romantische Fass</package><day>25</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f41c021d461"><name>Cedi</name><package>Das einfache Fass</package><day>9</day><month>3</month><year>2015</year><price>40</price></reservation><reservation number="54f41cdd8381e"><name>Cedric</name><package>Das romantische Fass</package><day>9</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f41e062688a"><name>Penis</name><package>Das romantische Fass</package><day>26</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f42001a75ce"><name>Testing</name><package>Das romantische Fass</package><day>26</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f420127d3fc"><name>Images</name><package>Das romantische Fass</package><day>4</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f4215c6bdb6"><name>Hansli</name><package>Das romantische Fass</package><day>17</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f4216a6216a"><name>Hansli</name><package>Das romantische Fass</package><day>15</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f421c95f145"><name>Franz</name><package>Das einfache Fass</package><day>8</day><month>3</month><year>2015</year><price>40</price></reservation><reservation number="54f4220617afb"><name>Testing</name><package>Das romantische Fass</package><day>21</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f4223e2fcf8"><name>Franz</name><package>Das romantische Fass</package><day>14</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f42269ab851"><name>Hansuu</name><package>Das romantische Fass</package><day>14</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f4227b4f5d3"><name>Karl</name><package>Das romantische Fass</package><day>5</day><month>3</month><year>2015</year><price>80</price></reservation><reservation number="54f423b91fcfe"><name>Cedric</name><package>Das entspannende Fass</package><day>8</day><month>5</month><year>2015</year><price>50</price></reservation><reservation number="54f424adbd0b6"><name>Cedric</name><package>Das romantische Fass</package><day>31</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f425d62b4d6"><name>jj</name><package>Das romantische Fass</package><day>22</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f4261bd0259"><name>bbb</name><package>Das romantische Fass</package><day>12</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f4262bd0253"><name>ddd</name><package>Das romantische Fass</package><day>4</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f426835ad40"><name>dddd</name><package>Das romantische Fass</package><day>6</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f4272fdd7cd"><name>hadfadf</name><package>Das romantische Fass</package><day>12</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f427745642a"><name>Der Hans</name><package>Das romantische Fass</package><day>20</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f427c6af3b4"><name>Testing</name><package>Das romantische Fass</package><day>29</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f428456e561"><name>Franz</name><package>Das romantische Fass</package><day>28</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f428aee1ad4"><name>Hansli</name><package>Das romantische Fass</package><day>19</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f428f882a5a"><name>Testing</name><package>Das romantische Fass</package><day>22</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f42900105ef"><name>klio</name><package>Das romantische Fass</package><day>22</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f42984bc5e2"><name>Frankler</name><package>Das romantische Fass</package><day>12</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f42a26d3016"><name>Ruedi</name><package>Das romantische Fass</package><day>25</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f42b045c222"><name>Philipp</name><package>Das romantische Fass</package><day>7</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f42b59b7f2c"><name>GAGI</name><package>Das romantische Fass</package><day>27</day><month>5</month><year>2015</year><price>80</price></reservation><reservation number="54f42c56e7321"><name>Cédric Brütsch</name><package>Das romantische Fass</package><day>9</day><month>4</month><year>2015</year><price>80</price></reservation><reservation number="54f42cb28c630"><name>Brütsch</name><package>Das romantische Fass</package><day>16</day><month>4</month><year>2015</year><price>80</price></reservation><reservation number="54f42e91ae56a"><name>jjjj</name><package>Das einfache Fass</package><day>13</day><month>3</month><year>2015</year><price>40</price></reservation></bookings>
+<bookings xsi:noNamespaceSchemaLocation="bookings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <reservation number="54f0200e35002">
+        <name>test</name>
+        <package>Das romantische Fass</package>
+        <day>27</day>
+        <month>2</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f02e5cc3360">
+        <name>glg</name>
+        <package>Das romantische Fass</package>
+        <day/>
+        <month/>
+        <year/>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f2e1907e174">
+        <name>jjj</name>
+        <package>Das einfache Fass</package>
+        <day>6</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>40</price>
+    </reservation>
+    <reservation number="54f403d229086">
+        <name>tet</name>
+        <package>Das romantische Fass</package>
+        <day>2</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4103aa14a2">
+        <name>test</name>
+        <package>Das Familien-Fass</package>
+        <day>26</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>60</price>
+    </reservation>
+    <reservation number="54f414671e4cc">
+        <name>test</name>
+        <package>Das romantische Fass</package>
+        <day>4</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f415e85aa0b">
+        <name>Cedric</name>
+        <package>Das romantische Fass</package>
+        <day>4</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4168cbc672">
+        <name>Hans</name>
+        <package>Das Familien-Fass</package>
+        <day>17</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>60</price>
+    </reservation>
+    <reservation number="54f41a0670705">
+        <name>Haudraufhase</name>
+        <package>Das Familien-Fass</package>
+        <day>17</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>60</price>
+    </reservation>
+    <reservation number="54f41aaced4fd">
+        <name>Haudraufhase</name>
+        <package>Das romantische Fass</package>
+        <day>25</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f41c021d461">
+        <name>Cedi</name>
+        <package>Das einfache Fass</package>
+        <day>9</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>40</price>
+    </reservation>
+    <reservation number="54f41cdd8381e">
+        <name>Cedric</name>
+        <package>Das romantische Fass</package>
+        <day>9</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f41e062688a">
+        <name>Penis</name>
+        <package>Das romantische Fass</package>
+        <day>26</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42001a75ce">
+        <name>Testing</name>
+        <package>Das romantische Fass</package>
+        <day>26</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f420127d3fc">
+        <name>Images</name>
+        <package>Das romantische Fass</package>
+        <day>4</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4215c6bdb6">
+        <name>Hansli</name>
+        <package>Das romantische Fass</package>
+        <day>17</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4216a6216a">
+        <name>Hansli</name>
+        <package>Das romantische Fass</package>
+        <day>15</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f421c95f145">
+        <name>Franz</name>
+        <package>Das einfache Fass</package>
+        <day>8</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>40</price>
+    </reservation>
+    <reservation number="54f4220617afb">
+        <name>Testing</name>
+        <package>Das romantische Fass</package>
+        <day>21</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4223e2fcf8">
+        <name>Franz</name>
+        <package>Das romantische Fass</package>
+        <day>14</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42269ab851">
+        <name>Hansuu</name>
+        <package>Das romantische Fass</package>
+        <day>14</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4227b4f5d3">
+        <name>Karl</name>
+        <package>Das romantische Fass</package>
+        <day>5</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f423b91fcfe">
+        <name>Cedric</name>
+        <package>Das entspannende Fass</package>
+        <day>8</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>50</price>
+    </reservation>
+    <reservation number="54f424adbd0b6">
+        <name>Cedric</name>
+        <package>Das romantische Fass</package>
+        <day>31</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f425d62b4d6">
+        <name>jj</name>
+        <package>Das romantische Fass</package>
+        <day>22</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4261bd0259">
+        <name>bbb</name>
+        <package>Das romantische Fass</package>
+        <day>12</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4262bd0253">
+        <name>ddd</name>
+        <package>Das romantische Fass</package>
+        <day>4</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f426835ad40">
+        <name>dddd</name>
+        <package>Das romantische Fass</package>
+        <day>6</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f4272fdd7cd">
+        <name>hadfadf</name>
+        <package>Das romantische Fass</package>
+        <day>12</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f427745642a">
+        <name>Der Hans</name>
+        <package>Das romantische Fass</package>
+        <day>20</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f427c6af3b4">
+        <name>Testing</name>
+        <package>Das romantische Fass</package>
+        <day>29</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f428456e561">
+        <name>Franz</name>
+        <package>Das romantische Fass</package>
+        <day>28</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f428aee1ad4">
+        <name>Hansli</name>
+        <package>Das romantische Fass</package>
+        <day>19</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f428f882a5a">
+        <name>Testing</name>
+        <package>Das romantische Fass</package>
+        <day>22</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42900105ef">
+        <name>klio</name>
+        <package>Das romantische Fass</package>
+        <day>22</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42984bc5e2">
+        <name>Frankler</name>
+        <package>Das romantische Fass</package>
+        <day>12</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42a26d3016">
+        <name>Ruedi</name>
+        <package>Das romantische Fass</package>
+        <day>25</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42b045c222">
+        <name>Philipp</name>
+        <package>Das romantische Fass</package>
+        <day>7</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42b59b7f2c">
+        <name>GAGI</name>
+        <package>Das romantische Fass</package>
+        <day>27</day>
+        <month>5</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42c56e7321">
+        <name>Cédric Brütsch</name>
+        <package>Das romantische Fass</package>
+        <day>9</day>
+        <month>4</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42cb28c630">
+        <name>Brütsch</name>
+        <package>Das romantische Fass</package>
+        <day>16</day>
+        <month>4</month>
+        <year>2015</year>
+        <price>80</price>
+    </reservation>
+    <reservation number="54f42e91ae56a">
+        <name>jjjj</name>
+        <package>Das einfache Fass</package>
+        <day>13</day>
+        <month>3</month>
+        <year>2015</year>
+        <price>40</price>
+    </reservation>
+</bookings>

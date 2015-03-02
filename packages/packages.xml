@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="packages.xsl"?>
-<packages>
+<packages xsi:noNamespaceSchemaLocation="packages.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<package name="Das romantische Fass">
 		<price>80</price>
