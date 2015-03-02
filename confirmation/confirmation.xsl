@@ -7,21 +7,45 @@
     <xsl:template match="bookings">
         <fo:root>
             <fo:layout-master-set>
-                <fo:simple-page-master master-name="booking_confirmation" page-height="29.7cm" page-width="21cm" margin-top="1cm" margin-bottom="2cm" margin-left="2.5cm" margin-right="2.5cm">
-                    <fo:region-body margin-top="1cm"/>
-                    <fo:region-before extent="2cm"/>
-                    <fo:region-after extent="3cm"/>
+                <fo:simple-page-master master-name="booking_confirmation" page-height="29.7cm" page-width="21cm" margin-top="1cm" margin-bottom="0.5cm" margin-left="1cm" margin-right="1cm">
+                    <fo:region-body margin-top="3.5cm" margin-bottom="1cm"/>
+                    <fo:region-before extent="5cm" display-align="before"/>
+                    <fo:region-after extent="2cm" display-align="after"/>
                 </fo:simple-page-master>
             </fo:layout-master-set>
             <fo:page-sequence master-reference="booking_confirmation">
                 <fo:static-content flow-name="xsl-region-before">
-                    <fo:block text-align="right" font-size="8pt">
-                        Seite
-                        <fo:page-number/>
+                    <fo:block text-align="left" >
+                        <fo:external-graphic content-height="scale-to-fit" height="80px"  content-width="222px" scaling="non-uniform" src="http://schlafenimfass.is-best.net/images/logo.png" />
                     </fo:block>
                 </fo:static-content>
+
+                <fo:static-content flow-name="xsl-region-after">
+                    <fo:table font-size="9pt" keep-together="always" width="100%" table-layout="fixed">
+                        <fo:table-column column-number="1" column-width="5cm"/>
+                        <fo:table-column column-number="2" column-width="9cm"/>
+                        <fo:table-column column-number="3" column-width="5cm"/>
+                        <fo:table-body>
+                            <fo:table-row>
+                                <fo:table-cell text-align="left">
+                                    <fo:block>Schlafen im Fass</fo:block>
+                                    <fo:block>Schöne Aussicht 1</fo:block>
+                                    <fo:block>3456 Meggen</fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell text-align="center" white-space-collapse="false" display-align="after">
+                                    <fo:block>Seite <fo:page-number/>
+                                    </fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell text-align="right" white-space-collapse="false" display-align="after">
+                                    <fo:block>www.schlafenimfass.is-best.net</fo:block>
+                                    <fo:block>Tel: +41 (41) 666 666</fo:block>
+                                </fo:table-cell>
+                            </fo:table-row>
+                        </fo:table-body>
+                    </fo:table>
+                </fo:static-content>
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:block font-size="19pt" font-family="sans-serif" line-height="24pt" space-after.optimum="20pt" background-color="blue" color="white" text-align="center" padding-top="5pt" padding-bottom="5pt">Buchungsbestätigung</fo:block><!-- For each movie ...  -->
+                    <fo:block font-size="19pt" font-family="sans-serif" line-height="24pt" space-after.optimum="20pt" padding-top="5pt" padding-bottom="5pt">Buchungsbestätigung</fo:block>
                     <xsl:apply-templates select="reservation[@number=$bookingId]"/>
                 </fo:flow>
             </fo:page-sequence>
@@ -29,58 +53,101 @@
     </xsl:template>
 
     <xsl:template match="reservation">
-        <fo:table space-after.optimum="20pt" width="13cm" font-size="11pt">
-            <fo:table-column column-number="1"/>
-            <fo:table-column column-number="2"/>
-            <fo:table-column column-number="3"/>
+        <fo:table space-after="10pt" table-layout="fixed" width="19cm" font-size="12pt" keep-together="always">
+            <fo:table-column column-number="1" column-width="5cm"/>
+            <fo:table-column column-number="2" column-width="14cm"/>
             <fo:table-body>
                 <fo:table-row>
+                    <fo:table-cell>
+                        <fo:block>
+                            Sehr geehrte(r) <xsl:value-of select="name"/>
+                        </fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <!-- Stupid code but the only solution I found to make a new line -->
+                <fo:table-row>
+                    <fo:table-cell>
+                        <fo:block white-space-collapse="false"
+                                  white-space-treatment="preserve"
+                                  font-size="0pt" line-height="15px">.</fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row>
                     <fo:table-cell number-columns-spanned="2">
-                        <fo:block font-size="16pt" color="grey" font-weight="900" text-align="left">
+                        <fo:block>
+                            Wir danken Ihnen für die Buchung in unserem Schlaffass.
+                            Wunschgemäss haben wir für Sie das folgende Packages reserviert:
+                        </fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <!-- Stupid code but the only solution I found to make a new line -->
+                <fo:table-row>
+                    <fo:table-cell>
+                        <fo:block white-space-collapse="false"
+                                  white-space-treatment="preserve"
+                                  font-size="0pt" line-height="15px">.</fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row font-weight="bold">
+                    <fo:table-cell>
+                        <fo:block>
+                            Ihre Buchungsnummer:
+                        </fo:block>
+                    </fo:table-cell>
+                    <fo:table-cell>
+                        <fo:block>
                             <xsl:value-of select="@number"/>
                         </fo:block>
                     </fo:table-cell>
-                    <fo:table-cell number-rows-spanned="5">
-                        <fo:block>
-                            <fo:external-graphic src="images/logo.png" border-width="0cm" width="2.5cm"/>
-                        </fo:block>
-                    </fo:table-cell>
                 </fo:table-row>
-                <fo:table-row>
-                    <fo:table-cell padding-top="8pt" number-columns-spanned="2" padding-bottom="10pt">
-                        <fo:block>
-                            Package: <xsl:value-of select="package"/>
-                        </fo:block>
-                    </fo:table-cell>
-                </fo:table-row>
-                <fo:table-row>
+                <fo:table-row font-weight="bold">
                     <fo:table-cell>
                         <fo:block>
-                            Price: <xsl:value-of select="price"/> Fr.
+                            Package:
                         </fo:block>
                     </fo:table-cell>
                     <fo:table-cell>
                         <fo:block>
-                            Date: <xsl:value-of select="concat(day, '.', month, '.', year)"/>
+                            <xsl:value-of select="package"/>
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>
-                <fo:table-row>
-                    <fo:table-cell number-columns-spanned="2" padding-top="8pt" padding-bottom="4pt">
-                        <fo:block>
-                            <fo:external-graphic src="images/arrow.gif" border-width="0cm" width="6cm" height="2pt"/>
-                        </fo:block>
-                    </fo:table-cell>
-                </fo:table-row>
-                <fo:table-row>
+                <fo:table-row font-weight="bold">
                     <fo:table-cell>
                         <fo:block>
-                            Name: <xsl:value-of select="name"/>
+                            Preis:
                         </fo:block>
                     </fo:table-cell>
                     <fo:table-cell>
                         <fo:block>
-                            Price: <xsl:value-of select="price"/> Fr.
+                            <xsl:value-of select="price"/> Fr.
+                        </fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row font-weight="bold">
+                    <fo:table-cell>
+                        <fo:block>
+                            Ankunftstag:
+                        </fo:block>
+                    </fo:table-cell>
+                    <fo:table-cell>
+                        <fo:block>
+                            <xsl:value-of select="concat(day, '.', month, '.', year)"/>
+                        </fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <!-- Stupid code but the only solution I found to make a new line -->
+                <fo:table-row>
+                    <fo:table-cell>
+                        <fo:block white-space-collapse="false"
+                                  white-space-treatment="preserve"
+                                  font-size="0pt" line-height="15px">.</fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
+                <fo:table-row>
+                    <fo:table-cell number-columns-spanned="2">
+                        <fo:block>
+                            Bei Fragen oder Unklarheiten stehen wir Ihnen gerne zur Verfügung. Ihr Schlafen im Fass Team.
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>

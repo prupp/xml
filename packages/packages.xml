@@ -3,22 +3,22 @@
 <packages>
 
 	<package name="Das romantische Fass">
-		<price>5</price>
+		<price>80</price>
 		<description>Sehr romantisch. Verbringe eine Nacht zu zweit in unserem Kackfass.</description>
 		<picture href="images/romantic.jpg"/>
 	</package>
 	<package name="Das Familien-Fass">
-		<price>50</price>
+		<price>60</price>
 		<description>Sehr familiär. Unser grösstes Fass bietet Platz für 4. Eine unvergessliche Nacht für die ganze Familie, die dank dem schnarchelnden Vater kein Auge zumachen konnte.</description>
 		<picture href="images/family.jpg"/>
 	</package>
 	<package name="Das einfache Fass">
-		<price>1</price>
+		<price>40</price>
 		<description>Sehr einfach. Bequemes Bett, keine Handy, kein Strom. Wie in einem 3.Welt Land</description>
 		<picture href="images/simple.jpg"/>
 	</package>
 	<package name="Das entspannende Fass">
-		<price>10</price>
+		<price>50</price>
 		<description>Very Relaxing</description>
 		<picture href="images/relax.jpg"/>
 	</package>

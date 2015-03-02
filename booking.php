@@ -86,13 +86,11 @@
             ?>
 
             <div id="booking_response">
-                <p>
 
                 <h1>
                     Buchung für den <?php echo $date; ?>
                 </h1>
                 <br/>
-                </p>
 
                 <?php
                 switch ($error) {
