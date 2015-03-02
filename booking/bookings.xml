@@ -97,14 +97,6 @@
         <year>2015</year>
         <price>80</price>
     </reservation>
-    <reservation number="54f41e062688a">
-        <name>Penis</name>
-        <package>Das romantische Fass</package>
-        <day>26</day>
-        <month>3</month>
-        <year>2015</year>
-        <price>80</price>
-    </reservation>
     <reservation number="54f42001a75ce">
         <name>Testing</name>
         <package>Das romantische Fass</package>
