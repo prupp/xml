@@ -76,6 +76,11 @@ tr{vertical-align: top; }
 		<tr height="130">
 			<td>
 				<xsl:value-of select="description"/>
+				<br/>
+				<br/>
+				
+Folgender Tropfen ist im Packet inbegriffen:<br/>
+				<xsl:value-of select="wine"/>
 			</td>
 		</tr>
 		<tr>

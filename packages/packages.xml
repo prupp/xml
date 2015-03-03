@@ -3,23 +3,27 @@
 <packages xsi:noNamespaceSchemaLocation="packages.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<package name="Das romantische Fass">
-		<price>80</price>
-		<description>Sehr romantisch. Verbringe eine Nacht zu zweit in unserem Kackfass.</description>
+		<price>100</price>
+		<description>Das romantische Fass ist vollkommen auf die getraute Zweisamkeit ausgelegt. Geniessen Sie Ihren speziellen Tag an einem ungewöhnlichen Ort. <br/>Statt Wein wird der Besuch mit einer Flasche Champagner begleitet.</description>
+		<wine>1 Flasche Champagner</wine>
 		<picture href="images/romantic.jpg"/>
 	</package>
 	<package name="Das Familien-Fass">
 		<price>60</price>
-		<description>Sehr familiär. Unser grösstes Fass bietet Platz für 4. Eine unvergessliche Nacht für die ganze Familie, die dank dem schnarchelnden Vater kein Auge zumachen konnte.</description>
+		<description>Sehr familiär. Unser grösstes Fass bietet Platz für 4. Begeben Sie sich auf ein Familienabenteuer in unserem Fass. Für die Älteren Gäste gibt es eine Flasche Rot/oder Weisswein und für die jüngeren eine Flasche Rimuss.</description>
+		<wine>1 Flasche Pino Noir, 1 Flasche Rimuss</wine>
 		<picture href="images/family.jpg"/>
 	</package>
 	<package name="Das einfache Fass">
 		<price>40</price>
-		<description>Sehr einfach. Bequemes Bett, keine Handy, kein Strom. Wie in einem 3.Welt Land</description>
+		<description>Sehr einfach. Ein Fass für Aussteiger. Bewusst gibt es keine Steckdosen . Eine Laterne spendet Licht wenn es dunkel wird. In diesem Fass ist man einfach mal Offline.</description>
+		<wine>1 Flasche Cornalin</wine>
 		<picture href="images/simple.jpg"/>
 	</package>
 	<package name="Das entspannende Fass">
 		<price>50</price>
 		<description>Very Relaxing</description>
+		<wine>1 Flasche Amarone</wine>
 		<picture href="images/relax.jpg"/>
 	</package>
 

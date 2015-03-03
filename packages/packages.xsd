@@ -7,6 +7,7 @@
             <xs:sequence>
               <xs:element type="xs:byte" name="price"/>
               <xs:element type="xs:string" name="description"/>
+			  <xs:element type="xs:string" name="wine"/>
               <xs:element name="picture">
                 <xs:complexType>
                   <xs:simpleContent>

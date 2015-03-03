@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bookings xsi:noNamespaceSchemaLocation="bookings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<bookings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bookings.xsd">
 
     <reservation number="54f0200e35002">
         <name>test</name>
