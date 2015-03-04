@@ -96,7 +96,7 @@
     <xsl:template name="displayCalendar">
         <xsl:param name="year" />
         <xsl:param name="month" />
-        <xsl:variable name="monthToDisplay" select="//month[@value=$month and //month[@year=$year]]" />
+        <xsl:variable name="monthToDisplay" select="//month[@value=$month and @year=$year]" />
 
         <xsl:variable name="x-value" select="((8 * $rectSize) div 2)" />
         <xsl:variable name="y-value" select="($rectSize div 2) - 20" />
